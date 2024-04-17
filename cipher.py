@@ -28,6 +28,6 @@ def decrypt(x, key):
       filled.append(character)
   return ''.join(onHold)
 x= "Hello world"
-key = '1110100111100001100100'
+key = '1110011000100001111010'
 print("cipher text:", encrypt(x, key))
 print("deciphered text:", decrypt(encrypt(x,key),key))

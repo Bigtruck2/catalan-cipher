@@ -1,8 +1,9 @@
 import random
 #make list of 10 ones
-x="1"*11
+length = int(input("Length of string: "))
+x="1"*length
 #for loop to pick 9 spots for 0s
-for i in range(0,10):
+for i in range(0,length-1):
   #generate randome spot until a valid spot is found
   while True:
 	#pick a place to put a 0
